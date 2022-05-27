@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://localhost:3000/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <link rel="icon" href="http://localhost:3000/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#000000">
+    <meta name="description" content="Web site created using create-react-app">
+    <link rel="apple-touch-icon" href="http://localhost:3000/logo192.png">
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="http://localhost:3000/manifest.json">
+    <!--
+      Notice the use of  in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>React App</title>
+  <style>/*////////////////////////
+    Table of Contents
+    1. Global Styles
+    2. Typography
+    3. Layout (reusables)
+    4. Areas
+
+    5. Media Queries
+////////////////////////*/
+/* ------------------------------- 1. Global Styles -------------------------------- */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 20px 50px 20px 50px;
+    background-color: hsl(47, 99%, 47%);
+    border: solid green 1px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+/* ------------------------------- 2. Typography ----------------------------------- */
+/* ------------------------------- 3. Layout (reusables) --------------------------------------- */
+
+/* ------------------------------- 4. Areas ---------------------------------------- */
+/* --------------- 4.1 Header ------------------------- */
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid white 1px;
+}
+
+.header-image {
+    max-width: 340px;
+    border: solid pink 1px;
+}
+
+.buttons {
+    padding: 30px 0 30px 0;
+    border: solid red 1px;
+}
+/* --------------- 4.2 Pokemon list ------------------------- */
+
+.card-container {
+    min-width: 100%;
+    border: solid green 1px;
+}
+
+/* ------------------------------- 5. Media Queries -------------------------------- */
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9zcmMvQXBwLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTs7Ozs7Ozs7eUJBUXlCO0FBQ3pCLHNGQUFzRjs7QUFFdEY7SUFDSSxVQUFVO0lBQ1YsU0FBUztJQUNULHNCQUFzQjtBQUMxQjs7QUFFQTtJQUNJLDRCQUE0QjtJQUM1QixtQ0FBbUM7SUFDbkMsdUJBQXVCOztJQUV2QixhQUFhO0lBQ2Isc0JBQXNCO0lBQ3RCLG1CQUFtQjtBQUN2Qjs7OztBQUlBLHNGQUFzRjtBQUN0RixrR0FBa0c7O0FBRWxHLHNGQUFzRjtBQUN0Rix5REFBeUQ7O0FBRXpEO0lBQ0ksYUFBYTtJQUNiLHNCQUFzQjtJQUN0QixtQkFBbUI7SUFDbkIsdUJBQXVCO0FBQzNCOztBQUVBO0lBQ0ksZ0JBQWdCO0lBQ2hCLHNCQUFzQjtBQUMxQjs7QUFFQTtJQUNJLHNCQUFzQjtJQUN0QixxQkFBcUI7QUFDekI7QUFDQSwrREFBK0Q7O0FBRS9EO0lBQ0ksZUFBZTtJQUNmLHVCQUF1QjtBQUMzQjs7QUFFQSxzRkFBc0YiLCJzb3VyY2VzQ29udGVudCI6WyIvKi8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vL1xyXG4gICAgVGFibGUgb2YgQ29udGVudHNcclxuICAgIDEuIEdsb2JhbCBTdHlsZXNcclxuICAgIDIuIFR5cG9ncmFwaHlcclxuICAgIDMuIExheW91dCAocmV1c2FibGVzKVxyXG4gICAgNC4gQXJlYXNcclxuXHJcbiAgICA1LiBNZWRpYSBRdWVyaWVzXHJcbi8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLyovXHJcbi8qIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0gMS4gR2xvYmFsIFN0eWxlcyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSAqL1xyXG5cclxuKiB7XHJcbiAgICBwYWRkaW5nOiAwO1xyXG4gICAgbWFyZ2luOiAwO1xyXG4gICAgYm94LXNpemluZzogYm9yZGVyLWJveDtcclxufVxyXG5cclxuYm9keSB7XHJcbiAgICBwYWRkaW5nOiAyMHB4IDUwcHggMjBweCA1MHB4O1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogaHNsKDQ3LCA5OSUsIDQ3JSk7XHJcbiAgICBib3JkZXI6IHNvbGlkIGdyZWVuIDFweDtcclxuXHJcbiAgICBkaXNwbGF5OiBmbGV4O1xyXG4gICAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcclxuICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XHJcbn1cclxuXHJcblxyXG5cclxuLyogLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSAyLiBUeXBvZ3JhcGh5IC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tICovXHJcbi8qIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0gMy4gTGF5b3V0IChyZXVzYWJsZXMpIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSAqL1xyXG5cclxuLyogLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSA0LiBBcmVhcyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tICovXHJcbi8qIC0tLS0tLS0tLS0tLS0tLSA0LjEgSGVhZGVyIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0gKi9cclxuXHJcbmhlYWRlciB7XHJcbiAgICBkaXNwbGF5OiBmbGV4O1xyXG4gICAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcclxuICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XHJcbiAgICBib3JkZXI6IHNvbGlkIHdoaXRlIDFweDtcclxufVxyXG5cclxuLmhlYWRlci1pbWFnZSB7XHJcbiAgICBtYXgtd2lkdGg6IDM0MHB4O1xyXG4gICAgYm9yZGVyOiBzb2xpZCBwaW5rIDFweDtcclxufVxyXG5cclxuLmJ1dHRvbnMge1xyXG4gICAgcGFkZGluZzogMzBweCAwIDMwcHggMDtcclxuICAgIGJvcmRlcjogc29saWQgcmVkIDFweDtcclxufVxyXG4vKiAtLS0tLS0tLS0tLS0tLS0gNC4yIFBva2Vtb24gbGlzdCAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tICovXHJcblxyXG4uY2FyZC1jb250YWluZXIge1xyXG4gICAgbWluLXdpZHRoOiAxMDAlO1xyXG4gICAgYm9yZGVyOiBzb2xpZCBncmVlbiAxcHg7XHJcbn1cclxuXHJcbi8qIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0gNS4gTWVkaWEgUXVlcmllcyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSAqLyJdLCJzb3VyY2VSb290IjoiIn0= */</style></head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"><header><img class="header-image" src="./React App_files/pokemon.5511e54e.png" alt="pokemon"><div class="buttons"><button>Vorige</button><button>Volgende</button></div></header><section class="card-container"></section></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  <script src="./React App_files/bundle.js.download"></script><script src="./React App_files/0.chunk.js.download"></script><script src="./React App_files/main.chunk.js.download"></script>
+
+</body></html>
